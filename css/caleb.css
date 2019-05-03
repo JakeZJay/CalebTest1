@@ -1,0 +1,160 @@
+html, body {
+	font-family: sans-serif;
+}
+
+body {
+	background-image: url('../img/backgroundimage.jpg');
+	background-repeat: repeat-x repeat-y;
+}
+
+header {
+	background-image: url('../img/headerimg.jpg');
+	background-position: center;
+	background-size: cover;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 120px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	border-bottom: 10px solid black;
+}
+
+header img {
+	cursor: pointer;
+	margin-top: 5px;
+	border-radius: 60px;
+	width: 350px;
+	border: 20px solid rgba(0, 0, 0, 0.75);
+	transition: all .2s;
+}
+
+header img:hover {
+	transform: scale(2);
+	transform-origin: top;
+}
+
+.content {
+	max-width: 85%;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#intro {
+	text-align: center;
+}
+
+.contentA {
+	width: 100%;
+	background-color: rgba(255, 255, 255, .8);
+	border: 5px solid rgba(0, 0, 0, 0.65);
+	padding: 5px;
+	margin: 0px;
+}
+
+h2 {
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+ol li {
+	font-size: 20px;
+}
+
+img.big-image {
+	cursor: pointer;
+	width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border: 5px solid rgba(0, 0, 0, 0.65);
+	transition: all .2s;
+
+}
+
+img.big-image:hover {
+	transform: scale(4);
+	transform-origin: bottom;
+	border: 1px solid rgba(0, 0, 0, 0.65);
+}
+
+p.caption {
+	color: black;
+	font-size: 15px;
+	font-style: italic;
+	margin-top: 0;
+	text-align: center;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.contentB {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 5px solid rgba(0, 0, 0, 0.65);
+	list-style: none;
+	width: 100%;
+	line-height: 35px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+.raptor-img, .utube-img {
+	width: 10%;
+	height: 10%;
+	margin: auto;
+	padding-right: 5px;
+	transition: all .2s;
+}
+
+.raptor-img:hover, .utube-img:hover {
+	transform: scale(1.2);
+}
+
+.cool-gif {
+	float: left;
+	width: 50%;
+	height: 50%;
+	padding: 10px 5px 0px 0px;
+	transition: all .2s;
+}
+
+.cool-gif:hover {
+	transform: scale(2);
+	transform-origin: left;
+	width: cover;
+	position: center;
+}
+
+/*THIS WILL AFFECT THE FOOTER AT THE BOTTOM*/
+
+footer {
+	padding: 1px 5px;
+	background-color: orange;
+	margin-top: 5px;
+}
+
+footer a {
+	font-size: 20px;
+}
+
+footer ul {
+	text-align: center;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0 10px;
+}

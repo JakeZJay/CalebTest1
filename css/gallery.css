@@ -1,0 +1,80 @@
+body {
+	background-color: lightgray;
+}
+
+nav {
+	font-family: sans-serif;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	background-color: darkgray;
+}
+
+.contentB {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	background-color: rgba(255, 255, 255, 0.8);
+	list-style: none;
+	width: 100%;
+	line-height: 35px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+.raptor-img, .utube-img {
+	width: 10%;
+	height: 10%;
+	margin: auto;
+	padding-right: 5px;
+	transition: all .2s;
+}
+
+.raptor-img:hover, .utube-img:hover {
+	transform: scale(1.2);
+}
+
+.cool-gif {
+	float: left;
+	width: 50%;
+	height: 50%;
+	padding: 10px 5px 0px 0px;
+	transition: all .2s;
+}
+
+.cool-gif:hover {
+	transform: scale(2);
+	transform-origin: left;
+	width: cover;
+	position: center;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 1px 5px;
+	background-color: darkgray;
+	margin-top: 5px;
+}
+
+footer a {
+	font-size: 20px;
+}
+
+footer ul {
+	text-align: center;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
